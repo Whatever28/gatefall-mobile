@@ -8,6 +8,3 @@ Controls: hold LEFT / RIGHT to move. KICK gives one upward impulse when on the s
 
 Canvas: Scale With Screen Size, 1920x1080, Match Height (1). Text and controls live in SafeArea panels. InputSystemUIInputModule handles the UI; gameplay keeps the instructor's keyboard examples with the existing small mobile input bridge. Active Input Handling: Both. Visible Meta Files and Force Text are enabled.
 
-Original visual assets and licenses: [Docs/Assets.md](Docs/Assets.md). Game design and the ten required sections: [Docs/Pearlbound_GDD.pdf](Docs/Pearlbound_GDD.pdf). Weekly delivery plan: [Docs/Plan.md](Docs/Plan.md). Requirement evidence and remaining submission steps: [Docs/Kickoff-Checklist.md](Docs/Kickoff-Checklist.md).
-
-The repository retains the earlier prototype's history. The underwater concept is developed on feature/pearlbound-underwater and merged through a pull request. Generated Library, Temp, Logs and build output are excluded by GitHub's Unity .gitignore.

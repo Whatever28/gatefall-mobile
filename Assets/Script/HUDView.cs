@@ -14,7 +14,8 @@ public class HUDView : MonoBehaviour
     {
         int hp=Mathf.Max(health.hp,0);
         hearts.text=new string('♥',Mathf.Min(hp,5))+(hp>5?" +"+(hp-5):"");
-        score.text="COINS  "+collectibles.Score.ToString("00");
-        timeLabel.text=timer.HasWon?"GATE OPEN":"SURVIVE  "+Mathf.FloorToInt(timer.Elapsed).ToString("00")+" / 60";
+        score.text="PEARLS  "+collectibles.Score.ToString("00");
+        timeLabel.text=timer.HasWon?"RESCUE READY":"DIVE  "+Mathf.FloorToInt(timer.Elapsed).ToString("00")+" / 60";
     }
 }
+

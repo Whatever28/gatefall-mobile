@@ -13,7 +13,7 @@
 | GDD: week-15 MVP | Section 08 |
 | GDD: cut list | Section 09 |
 | GDD: weeks 9-13 and roles | Section 10 |
-| One or two PDF pages | Two rendered and visually reviewed pages |
+| One or two PDF pages | One page, rendered and visually reviewed |
 | GitHub Unity gitignore, README game name | Root .gitignore and README.md |
 | Visible Meta Files and Force Text | ProjectSettings; .meta files tracked; text scenes/assets |
 | Public repository | https://github.com/Whatever28/pearlbound-mobile |

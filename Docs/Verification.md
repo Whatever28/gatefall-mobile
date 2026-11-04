@@ -1,6 +1,6 @@
 # Verification: Pearlbound
 
-Unity 6000.6.1f1, 2026-11-04. Final Play Mode run: 376 assertions passed, no failed assertions. Five resulting screenshots were visually reviewed. The GDD has two pages and was rendered and visually reviewed.
+Unity 6000.6.1f1, 2026-11-04. Final Play Mode run: 376 assertions passed, no failed assertions. Five resulting screenshots were visually reviewed. The simplified GDD has one page and was rendered and visually reviewed.
 
 Verified flows:
 - MainMenu Play loads Game; Pause stops scaled time and the dive timer; Resume continues the run.

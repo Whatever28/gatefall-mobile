@@ -16,4 +16,4 @@ My core loop is move, dodge, collect and survive. One run lasts sixty seconds. T
 2:15-2:40 — GitHub
 This is the public repository. It uses the Unity gitignore and does not contain the Library folder. Here are the meaningful commits and the merged feature pull request for the underwater concept. The repository also contains the design document, asset licenses and screenshots. This is the starting project that I will continue developing in the next assignments.
 
-Before recording: use Device Simulator, show MainMenu then Game; switch among Apple iPhone 8 Plus, Apple iPhone 12 and Apple iPad (5th gen) in landscape. Show real controls and pause. Open both GDD pages, then GitHub Commits and the merged underwater PR. Save a 2–3 minute MP4 file for Canvas.
+Before recording: use Device Simulator, show MainMenu then Game; switch among Apple iPhone 8 Plus, Apple iPhone 12 and Apple iPad (5th gen) in landscape. Show real controls and pause. Open the GDD, then GitHub Commits and the merged underwater PR. Save a 2–3 minute MP4 file for Canvas.

@@ -20,3 +20,5 @@ Native Device Simulator, landscape:
 Temporary scene-authoring and automated verification scripts are excluded from the delivered Assets. The gameplay scripts remain the earlier instructor-based scripts; HUD labels changed for the new concept. New visual work consists of sprite imports, animation frames, prefab appearance, scene art and UI styling, with a collider fitted to the diver.
 
 Limits: Editor Play Mode and simulated screen layouts were checked. No Android APK or physical-device run is included. The English MP4 with the student's own voice and the Canvas upload are still required; see Kickoff-Checklist.md and English-Video-Guide.txt.
+
+Screenshot refresh: all five native Device Simulator captures were retaken after simplifying the menu to Play and Quit. Each resulting PNG was visually reviewed. The game title and extra menu captions are hidden by request; the original Kickoff title requirement is flagged in Kickoff-Checklist.md.

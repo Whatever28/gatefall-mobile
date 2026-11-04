@@ -2,7 +2,7 @@ PEARLBOUND — ENGLISH VIDEO GUIDE (about 2 minutes 40 seconds)
 Record an MP4 with your own voice. This text is a script, not a completed video.
 
 0:00-0:20 — Main Menu
-This is Pearlbound, my mobile game kickoff. It is a two-dimensional survival platformer for Android in landscape orientation. A diver explores underwater ruins, collects pearls and avoids sinking mines. This is the main menu with the title, Play and Quit buttons. Play opens the arena.
+This is Pearlbound, my mobile game kickoff. It is a two-dimensional survival platformer for Android in landscape orientation. A diver explores underwater ruins, collects pearls and avoids sinking mines. This is the main menu with Play and Quit buttons. Play opens the arena.
 
 0:20-0:55 — three devices / HUD
 The HUD shows hearts, the dive timer and the pearl score. The movement buttons are at the bottom left. Kick and Bubble are at the bottom right. Kick is a grounded upward impulse, and holding Bubble emits projectiles with a cooldown. Here is the layout on a sixteen-by-nine phone, a notched phone and a four-by-three tablet. The Canvas scales with the screen size. Buttons and text are inside the safe area, so they stay away from the notch.

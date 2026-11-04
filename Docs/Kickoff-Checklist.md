@@ -19,7 +19,7 @@
 | Public repository | https://github.com/Whatever28/pearlbound-mobile |
 | 3+ meaningful commits from the student's account | Git history authored by Whatever28; earlier foundation plus underwater asset/theme/document commits |
 | Feature branch merged through PR | feature/pearlbound-underwater; merged PR linked in repository |
-| Main Menu title / Play / Quit | Assets/Scenes/MainMenu.unity; Docs/Screenshots/01_Menu.png |
+| Main Menu title / Play / Quit | Play and Quit work; the title and extra captions are hidden at the user's request. Kickoff originally requires a visible title. Updated capture: Docs/Screenshots/01_Menu.png |
 | HUD hearts / score / pause / mobile controls | Assets/Scenes/Game.unity; three HUD screenshots |
 | Pause Resume / Restart / Menu and frozen time | Game PausePanel; Docs/Screenshots/05_Pause.png |
 | Canvas Scaler 1920x1080, Match 1 | UI Canvas in both scenes |

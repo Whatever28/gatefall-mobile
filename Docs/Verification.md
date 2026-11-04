@@ -1,13 +1,22 @@
-# Verification
+# Verification: Pearlbound
 
-Unity 6000.6.1f1 Play Mode verification passed on 2026-11-04.
+Unity 6000.6.1f1, 2026-11-04. Final Play Mode run: 376 assertions passed, no failed assertions. Five resulting screenshots were visually reviewed. The GDD has two pages and was rendered and visually reviewed.
 
-- Play loads Game; Resume continues time; Restart resets health and timer; Menu restores MainMenu and timeScale 1.
-- Pause stops scaled time and the survival timer.
-- Pointer callbacks move left/right, jump and repeatedly fire with the original cooldown.
-- Button reference dimensions are at least 120x120; text is at least 36 reference pixels.
-- UI bounds stay inside Screen.safeArea on Apple iPhone 8 Plus (1920x1080), Apple iPhone 12 (2532x1170, notched safe area), and Apple iPad 5th generation (2048x1536).
-- Five screenshots were captured through Unity's native Device Simulator and visually checked.
-- Quit has a persistent callback; Application.Quit was not invoked during automated Editor tests.
+Verified flows:
+- MainMenu Play loads Game; Pause stops scaled time and the dive timer; Resume continues the run.
+- Pointer callbacks move left/right, Kick performs the original grounded jump, and holding Bubble emits repeated projectiles with cooldown.
+- Restart resets health and time; Menu returns to MainMenu with timeScale 1. Quit's persistent callback is wired to Application.Quit; tests do not close the Editor.
+- All active buttons are >=120x120 reference pixels. TMP text is >=36 pixels. Button AND text bounds remain inside Screen.safeArea for the tested screen.
+- Damage removes HP; immediate repeated damage is blocked by invulnerability; healing restores HP.
+- Physical overlap with a pearl increments score and updates the HUD.
+- Reaching the dive timer goal activates Open on the rescue arch Animator and updates the HUD to RESCUE READY.
+- The new title/product name and licensed diver/pearl sprite references are present.
 
-This verifies Editor Play Mode and simulated layouts. An Android APK and physical-device testing are not included. The submission video must still be recorded with the student's own English voice (2-3 minutes).
+Native Device Simulator, landscape:
+- Apple iPhone 8 Plus: 1920x1080, full safe area.
+- Apple iPhone 12: 2532x1170, safe area x141 y63 width2250 height1107.
+- Apple iPad (5th gen): 2048x1536, full safe area.
+
+Temporary scene-authoring and automated verification scripts are excluded from the delivered Assets. The gameplay scripts remain the earlier instructor-based scripts; HUD labels changed for the new concept. New visual work consists of sprite imports, animation frames, prefab appearance, scene art and UI styling, with a collider fitted to the diver.
+
+Limits: Editor Play Mode and simulated screen layouts were checked. No Android APK or physical-device run is included. The English MP4 with the student's own voice and the Canvas upload are still required; see Kickoff-Checklist.md and English-Video-Guide.txt.

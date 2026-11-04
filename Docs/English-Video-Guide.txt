@@ -1,0 +1,19 @@
+PEARLBOUND — ENGLISH VIDEO GUIDE (about 2 minutes 40 seconds)
+Record an MP4 with your own voice. This text is a script, not a completed video.
+
+0:00-0:20 — Main Menu
+This is Pearlbound, my mobile game kickoff. It is a two-dimensional survival platformer for Android in landscape orientation. A diver explores underwater ruins, collects pearls and avoids sinking mines. This is the main menu with the title, Play and Quit buttons. Play opens the arena.
+
+0:20-0:55 — three devices / HUD
+The HUD shows hearts, the dive timer and the pearl score. The movement buttons are at the bottom left. Kick and Bubble are at the bottom right. Kick is a grounded upward impulse, and holding Bubble emits projectiles with a cooldown. Here is the layout on a sixteen-by-nine phone, a notched phone and a four-by-three tablet. The Canvas scales with the screen size. Buttons and text are inside the safe area, so they stay away from the notch.
+
+0:55-1:15 — pause
+The Pause button stops game time. Resume continues the same run, Restart resets the arena, and Menu returns to the main menu. The touch targets are at least one hundred and twenty reference pixels. The text is at least thirty-six pixels.
+
+1:15-2:15 — GDD, one minute
+My core loop is move, dodge, collect and survive. One run lasts sixty seconds. The MVP has one arena, two reef ledges, three pearl pickups and a rescue beacon. The player starts with three hearts. Small mines deal one damage, large mines deal two, and healing bubbles restore health. After damage there is a short period of invulnerability. The rescue beacon activates at sixty seconds. The art comes from the free Underwater Diving Pack by ansimuz and the pearl sprite by MallardTV, both with public-domain licenses. My cut list excludes multiplayer, accounts, a shop, extra worlds and unrestricted swimming. The plan is to finish the UI in week nine, add one fish enemy in week ten, add local saving in week eleven, polish sound and effects in week twelve, and test Android and fix bugs in week thirteen. I work individually until week fourteen.
+
+2:15-2:40 — GitHub
+This is the public repository. It uses the Unity gitignore and does not contain the Library folder. Here are the meaningful commits and the merged feature pull request for the underwater concept. The repository also contains the design document, asset licenses and screenshots. This is the starting project that I will continue developing in the next assignments.
+
+Before recording: use Device Simulator, show MainMenu then Game; switch among Apple iPhone 8 Plus, Apple iPhone 12 and Apple iPad (5th gen) in landscape. Show real controls and pause. Open both GDD pages, then GitHub Commits and the merged underwater PR. Save a 2–3 minute MP4 file for Canvas.

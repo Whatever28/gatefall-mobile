@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7412882762726819664}
   - component: {fileID: 2957339412197901230}
-  - component: {fileID: 4637179456895386937}
+  - component: {fileID: 2138048427567957197}
   m_Layer: 0
   m_Name: Explosion
   m_TagString: Untagged
@@ -28,7 +28,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.7, y: 1.7, z: 1.7}
+  m_LocalScale: {x: 1.8133334, y: 1.3268293, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -82,7 +82,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 10
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -8888639967271525297, guid: 19606b649a426044393cbc77356d1c3f, type: 3}
+  m_Sprite: {fileID: 1284647483036081791, guid: dac8502e73fae8244a3349e0814263bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -93,7 +93,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
---- !u!95 &4637179456895386937
+--- !u!95 &2138048427567957197
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -103,7 +103,7 @@ Animator:
   m_GameObject: {fileID: 1479577665339596833}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: dd9a57f1795f28e48bd5996cdac8e69f, type: 2}
+  m_Controller: {fileID: 9100000, guid: 6602cfc5bd88da747aadcadaa12aa477, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

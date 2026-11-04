@@ -18,7 +18,8 @@ public class Shooter : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.X) && Time.time >= nextShot)
+        if (Time.timeScale == 0) return;
+        if ((Input.GetKey(KeyCode.X) || MobileControls.FireHeld) && Time.time >= nextShot)
         {
             nextShot = Time.time + cooldown;
             Quaternion direction = Quaternion.Euler(0, 0, sr.flipX ? 180f : 0f);

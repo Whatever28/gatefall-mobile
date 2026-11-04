@@ -6,6 +6,8 @@ public class SurvivalTimer : MonoBehaviour
     public Animator gateAnimator;
     float t;
     bool won;
+    public float Elapsed => t;
+    public bool HasWon => won;
 
     void Update()
     {

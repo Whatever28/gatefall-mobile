@@ -4,6 +4,7 @@ using UnityEngine;
 public class SurvivalCollectibles : MonoBehaviour
 {
     int coins;
+    public int Score => coins;
     int coinsTotal;
     AudioSource src;
 

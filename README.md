@@ -1,11 +1,13 @@
 # Gatefall
 
-A small 2D survival game for Android in landscape orientation, developed in Unity 6000.6.1f1.
+A 2D survival game for Android, landscape, Unity 6000.6.1f1.
 
-The starting point is the previous survival prototype: move, jump, dodge falling rocks and bombs, collect hearts and coins, and survive until the gate opens at 60 seconds.
+Open this folder through Unity Hub, then open Assets/Scenes/MainMenu.unity and press Play. Build Settings contains MainMenu followed by Game. Android Build Support is needed to export an APK.
 
-Desktop controls: A/D or arrows, Space, X. Mobile Menu/HUD/Pause and safe-area support are the next feature branch.
+Survive for 60 seconds, dodge rocks and bombs, and collect hearts and coins. Mobile buttons: Left, Right, Jump and Fire. Desktop: A/D or arrows, Space and X. Pause offers Resume, Restart and Menu. Quit exits a built player; in the Editor it only logs the request.
 
-Open the project folder in Unity Hub. Source folders are Assets, Packages and ProjectSettings; generated caches and builds are excluded using GitHub's Unity .gitignore.
+The Canvas uses Scale With Screen Size, 1920x1080, Match Height (1). Controls and text live inside the SafeArea panel. The UI uses InputSystemUIInputModule; gameplay keeps the earlier keyboard examples with a small mobile input bridge. Active Input Handling is Both.
 
-The instructor's animation kit supplies the hero, coin and fire sprites. Audio is from Kenney Digital Audio (CC0); its license is retained under Assets/Audio/Kenney.
+The instructor's animation kit supplies hero, coin and fire sprites. Audio comes from Kenney Digital Audio (CC0); its license is under Assets/Audio/Kenney. Flat arena geometry is retained from the earlier survival prototype.
+
+See Docs/Gatefall_GDD.pdf for the two-page design and weeks 9-13 plan. Docs/Screenshots contains Menu, Pause and three native Device Simulator HUD captures. Docs/Verification.md describes checks and limits.

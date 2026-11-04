@@ -22,10 +22,14 @@ public class SurvivalPlayerController : MonoBehaviour
 
     void Update()
     {
-        float x = Input.GetAxisRaw("Horizontal");
+        if (Time.timeScale == 0) return;
+        float keyboard = Input.GetAxisRaw("Horizontal");
+        float x = Mathf.Abs(keyboard) > 0 ? keyboard : MobileControls.Horizontal;
         rb.linearVelocity = new Vector2(x * speed, rb.linearVelocity.y);
 
-        if (Input.GetKeyDown(KeyCode.Space) && grounded)
+        bool jumpRequested = Input.GetKeyDown(KeyCode.Space) || MobileControls.JumpPressed;
+        MobileControls.JumpPressed = false;
+        if (jumpRequested && grounded)
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
 
         // === АНИМАЦИЯ: 3 строки ===
@@ -44,4 +48,3 @@ public class SurvivalPlayerController : MonoBehaviour
         if (c.gameObject.CompareTag("Ground")) grounded = false;
     }
 }
-

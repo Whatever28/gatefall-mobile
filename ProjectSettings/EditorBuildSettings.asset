@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Survival Mode.unity
-    guid: 70b3ff259614abf44b895f5727a4602f
+    path: Assets/Scenes/MainMenu.unity
+    guid: c975d64c6473d3942aa134181e1c131e
   - enabled: 1
-    path: Assets/Scenes/Physics Game.unity
-    guid: dcdca86495d3bca4d9b47fcc3c7f6bab
+    path: Assets/Scenes/Game.unity
+    guid: 5ac0f9e42f33b8c4ab1c69a2800caa6f
   m_configObjects: {}
